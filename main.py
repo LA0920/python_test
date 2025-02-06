@@ -1,8 +1,4 @@
 def in_autotests_we_trust(a: object, b: object) -> None:
-    """
-
-    :rtype: object
-    """
     if a == b:
         print('Test passed')
     else:
