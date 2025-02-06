@@ -1,8 +1,8 @@
 def in_autotests_we_trust(a: object, b: object) -> None:
     if a == b:
-        print('Test passed')
+        print('PASS')
     else:
-        print('Test failed')
+        print('FAIL')
 
 
 in_autotests_we_trust(10, '10')
